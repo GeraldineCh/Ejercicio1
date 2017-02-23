@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>Ficha de datos</title>
+</head>
+<body>
+	<header>
+		<h1>Ficha de Datos</h1>
+	</header>
+	<section>
+		<form action="">
+			<label for="name">Ingresa tu nombre:</label>
+			<input type="text" name="name" id="name" required="" /><br><br>
+			<label for="ap">Ingresa tu apellido:</label>
+			<input type="text" name="ap" id="ap" required=""/><br><br>
+			<label for="phone">Ingresa tu DNI:</label>
+			<input type="text" name="DNI" id="dni" pattern="[0-9]{8}" required=""/><br><br>
+			<label for="adress">Ingresa tu dirección:</label>
+			<input type="text" name="adress" id="adress" required=""/><br><br>
+			</p>
+			<p>
+				<input type="submit" onclick="mostrar(event)" value="Enviar datos">
+			</p>
+		</form>
+	</section>
+	<div id="salida"></div>
+</body>
+</html>
